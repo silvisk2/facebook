@@ -32,11 +32,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("facebook")
+                Text("AMAZING APP")
                     .font(.system(size: 48, weight: .bold, design: .default))
                     .foregroundColor(Color(facebookBlue))
                 Spacer()
-                Image(systemName: "person.circle")
+                Image(systemName: "gyroscope")
                     .resizable()
                     .frame(width: 45, height: 45, alignment: .center)
                     .foregroundColor(Color(.secondaryLabel))
